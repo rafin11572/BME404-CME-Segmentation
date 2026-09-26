@@ -1,0 +1,9 @@
+filename,description
+P01_what_is_cme.png,"Opener: what an OCT B-scan is, a quiet slice beside one with obvious cystoid edema, fluid pockets marked."
+P02_how_it_works.png,"The pipeline in five pictures and no equations: raw scan, denoised, retina located, dark pockets picked out, final result against the specialist."
+P03_results_gallery.png,"MAIN RESULT SLIDE. Our automatic contour (red) against the specialist tracing (green) for six different patients, each one that patient''s largest lesion, with the overlap printed as a percentage."
+P04_accuracy_in_context.png,"Accuracy against the only meaningful yardstick: how well the two expert graders agree with EACH OTHER on the very same scans. Both bars computed on the same subsets, so the comparison is like-for-like."
+P05_clinical_output.png,"The clinical layer: one annotated scan showing fluid area, cyst count, diameter and severity, plus the grade distribution across the dataset."
+P06_speed.png,"Processing time per scan against the three methods timed in Liu et al. (2021)."
+P07_why_four_directions.png,"Why the operator sweeps in four directions: it finds the most fluid AND runs fastest."
+P08_gui.png,"A still of the live MATLAB GUI, as a fallback if the demo cannot be run."

@@ -1,0 +1,48 @@
+SPEAKER NOTES - CME segmentation deck
+=====================================
+
+P01  What we are looking at
+  An OCT scan is a cross-section through the retina, like a slice
+  through a cake. In edema, fluid collects in pockets - the dark
+  holes. A clinician currently outlines those by hand.
+
+P02  How it works
+  Five steps, no machine learning, no training data. Clean the
+  speckle, locate the retina, find the dark pockets inside it,
+  keep the ones that look like fluid.
+
+P03  Results
+  Green is the specialist. Red is our code, fully automatic.
+  Six different patients, one setting used for all of them.
+
+P04  How good is that, really?
+  Over ALL 78 expert-annotated scans we overlap the
+  specialist 43% of the time. On the larger cysts, 61%.
+  KEY POINT - the ceiling is not 100%. Two trained eye
+  specialists tracing the SAME scans agree with each other
+  only 58% of the time overall, and 74% on the larger cysts.
+  So we reach about 74% of what two humans achieve overall,
+  and about 82% of it on the clinically significant lesions.
+  Both numbers measured on the same scans - a like-for-like
+  comparison, not our best subset against their worst.
+
+P05  Clinical output
+  Neither reference paper goes past the outline. We convert it to
+  fluid area, cyst count, size and a severity grade.
+
+P06  Speed
+  0.42 s per scan on a normal laptop, no GPU.
+
+P07  Why four directions
+  The operator sweeps the image like a wave. Four sweep directions
+  find the most fluid AND run fastest. Our data reproduces the
+  choice the original authors made.
+
+IF ASKED - honest answers, all backed by docs/FINDINGS.md
+  "Did you reproduce the paper exactly?"  We implemented it and it
+     did not transfer to this dataset unchanged; our modifications
+     were needed. The measurements are in the report.
+  "Is it overfitted?"  No - leave-one-subject-out validation, where
+     settings are tuned on nine patients and tested on the tenth,
+     loses only ~0.015 overlap.
+  "Any machine learning?"  None anywhere.

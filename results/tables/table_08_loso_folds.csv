@@ -1,0 +1,11 @@
+heldOutSubject,parametersChosen,trainDice,heldOutDice
+1,"integrate.looseK=0.7, integrate.seedK=1.3, integrate.minContrast=10",0.430668939151744,0.39132309003272
+2,"integrate.looseK=0.7, integrate.seedK=1.3, integrate.minContrast=10",0.434780188984719,0.339556241930815
+3,"integrate.looseK=0.7, integrate.seedK=1.3, integrate.minContrast=10",0.44078035884775,0.160135224105839
+4,"integrate.looseK=0.7, integrate.seedK=1.3, integrate.minContrast=10",0.424665922384065,0.436012214858773
+5,"integrate.looseK=0.7, integrate.seedK=1.3, integrate.minContrast=10",0.416203779102014,0.490727731272838
+6,"integrate.looseK=0.7, integrate.seedK=1.3, integrate.minContrast=10",0.411872522263669,0.519314026405915
+7,"integrate.looseK=0.7, integrate.seedK=1.3, integrate.minContrast=10",0.416636715934051,0.594720796552414
+8,"integrate.looseK=0.7, integrate.seedK=1.3, integrate.minContrast=10",0.428782979132601,0.40243551905556
+9,"integrate.looseK=0.7, integrate.seedK=1.3, integrate.minContrast=10",0.439196684304967,0.272159805352268
+10,"integrate.looseK=0.9, integrate.seedK=1.3, integrate.minContrast=10",0.418331806479148,0.379311262515497

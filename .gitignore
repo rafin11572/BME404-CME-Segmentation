@@ -1,0 +1,8 @@
+# Duke DME dataset: not redistributable, download it yourself (see README)
+data/*.mat
+data/v73/
+
+# MATLAB
+*.asv
+*.mex*
+slprj/
