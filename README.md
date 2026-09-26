@@ -9,6 +9,17 @@ grade. No neural network, no training data, ~0.4 s per B-scan on a laptop.
 
 ---
 
+## GUI demo video
+
+[![GUI demo: click to watch](media/gui_demo_thumbnail.png)](media/gui_demo_explained.mp4)
+
+A 1 min 44 s walkthrough of the MATLAB GUI with on-screen explanations:
+picking a patient and B-scan, graded vs not-graded slices, switching the
+pipeline mode, the clinical read-out, accuracy against both experts, and
+exporting a figure. **[Watch / download the video](media/gui_demo_explained.mp4)**
+
+---
+
 ## Quick start
 
 **1. Get the code.** Download this repository (green *Code* button → *Download ZIP*)
