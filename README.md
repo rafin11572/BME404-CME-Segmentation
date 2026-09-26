@@ -169,6 +169,9 @@ results/tables/      every numeric result as CSV
 docs/FINDINGS.md     the measurements that drove the design decisions
 docs/BUILTINS.md     every MATLAB built-in used, what it computes, why
 docs/VIVA_NOTES.md   likely questions and the honest answers
+docs/PROJECT_REPORT.md       short written report of the whole project
+docs/FINDINGS_volumetric.md  neighbour-slice (3-D) test: tested, not adopted
+                     (src/segmentCME3D.m, scripts/run_11_volumetric.m)
 data/                Subject_01.mat … Subject_10.mat
 data/v73/            the same files converted to MAT v7.3 (much faster to read;
                      created once by convertToV73, used automatically)
